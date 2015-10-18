@@ -1,7 +1,22 @@
-@media (min-width: 30em) {
+html {
+  line-height: 1.4;
+}
+
+section,
+footer {
+  margin: 0 20px 2em 20px;
+  position: relative;
+}
+
+@media (min-width: 40em) {
+  section,
+  footer {
+    margin: 0 50px 2em 50px;
+  }
+
   .row {
     display: table;
-    margin: 0 2em 2em 2em;
+    margin-bottom: 2em;
     table-layout: fixed;
     width: 100%;
   }
@@ -19,4 +34,82 @@
     display: table-cell;
     width: 75%;
   }
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+.Intro {
+  margin-top: 2em;
+}
+
+.Upcoming {
+  border-radius: 2em;
+  border: 0.6em solid #f55;
+  line-height: 1;
+  text-align: center;
+  width: 10em;
+}
+
+.Upcoming-header {
+  background-color: #f55;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  padding: 1em 0;
+}
+
+.Upcoming-date {
+  font-size: 2.2em;
+  margin: 0 0 0.46em 0;
+}
+
+.Upcoming-venue {
+  line-height: 1.4;
+  margin: 0 0 1em 0;
+}
+
+.PageFooter {
+  margin-top: 4em;
+}
+.PageFooter-imprint {
+  font-size: 0.6em;
+}
+
+
+.BackgroundImage {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 2160px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 2160px) { /* Specific to this particular image */
+  .BackgroundImage {
+    left: 50%;
+    margin-left: -1080px;   /* 50% */
+  }
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+.vcard .photo,
+.vcard .url,
+.vcard .org {
+  display: none;
+}
+
+.vcard .tel {
+  white-space: nowrap;
 }
