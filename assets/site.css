@@ -1,8 +1,14 @@
 html {
   color: #444;
   font-family: "ff-tisa-web-pro", serif;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 19px;
+  }
 }
 
 section,
@@ -11,7 +17,7 @@ footer {
   position: relative;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 768px) {
   section,
   footer {
     margin: 0 50px 2em 50px;
@@ -19,10 +25,7 @@ footer {
 }
 
 a {
-  border-bottom: 1px solid rgba(255, 62, 49, 0.5);
   color: #d10a0a;
-  padding: 0 0 -0.25em 0;
-  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -41,12 +44,13 @@ h3 {
 
 
 .row {
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 768px) {
   .row {
     display: table;
+    margin-bottom: 1em;
     table-layout: fixed;
     width: 100%;
   }
@@ -123,7 +127,18 @@ h3 {
 }
 
 .Upcoming-newsletter {
-  font-size: 0.75em;
+  font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+  .Upcoming {
+    text-align: center;
+  }
+
+  .Upcoming-column {
+    margin: 0 auto;
+    width: 12em;
+  }
 }
 
 
@@ -133,9 +148,11 @@ h3 {
 .FAQ {
   border-top: 1px solid #eee;
   margin-bottom: 20em;
+  padding-top: 1em;
 }
 
 .FAQ-head {
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
