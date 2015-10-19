@@ -1,5 +1,6 @@
 html {
   color: #444;
+  display: block;
   font-family: "ff-tisa-web-pro", serif;
   font-size: 17px;
   line-height: 1.6;
