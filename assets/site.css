@@ -1,5 +1,8 @@
 html {
-  line-height: 1.4;
+  color: #3d3d3d;
+  font-family: "ff-tisa-web-pro", serif;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 section,
@@ -13,10 +16,38 @@ footer {
   footer {
     margin: 0 50px 2em 50px;
   }
+}
 
+a {
+  border-bottom: 1px solid rgba(255, 62, 49, 0.5);
+  color: #d10a0a;
+  display: inline-block;
+  padding: 0 0 -0.25em 0;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #d10a0a;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+.row {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 40em) {
   .row {
     display: table;
-    margin-bottom: 2em;
     table-layout: fixed;
     width: 100%;
   }
@@ -32,6 +63,7 @@ footer {
 
   .col-75 {
     display: table-cell;
+    padding-left: 1em;
     width: 75%;
   }
 }
@@ -44,41 +76,71 @@ footer {
   margin-top: 2em;
 }
 
-.Upcoming {
+.Intro-head {
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+.Upcoming {}
+
+.Upcoming-box {
   border-radius: 2em;
-  border: 0.6em solid #f55;
+  border: 0.6em solid #d10a0a;
+  font-family: "proxima-nova", sans-serif;
   line-height: 1;
   text-align: center;
   width: 10em;
 }
 
 .Upcoming-header {
-  background-color: #f55;
+  background-color: #d10a0a;
   color: #fff;
   font-weight: bold;
-  margin: 0 0 1em 0;
-  padding: 1em 0;
+  margin: 0 0 0.5em 0;
+  padding: 0.5em 0 0.75em 0;
+  text-transform: uppercase;
 }
 
 .Upcoming-date {
   font-size: 2.2em;
-  margin: 0 0 0.46em 0;
+  margin: 0 0 0.1em 0;
 }
 
 .Upcoming-venue {
-  line-height: 1.4;
+  line-height: 1.2;
   margin: 0 0 1em 0;
 }
 
-.PageFooter {
-  margin-top: 4em;
+.Upcoming-venue-wee {
+  font-size: 0.75em;
 }
-.PageFooter-imprint {
-  font-size: 0.6em;
+
+
+/* -------------------------------------------------------------------------- */
+
+
+.FAQ {
+  border-top: 1px solid #eee;
 }
+
+.FAQ-head {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* -------------------------------------------------------------------------- */
 
 
 .BackgroundImage {
+  display: none;
+
+
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 2160px;
@@ -98,6 +160,19 @@ footer {
     left: 50%;
     margin-left: -1080px;   /* 50% */
   }
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+.PageFooter {
+  margin-top: 4em;
+}
+
+.PageFooter-imprint {
+  font-size: 0.6em;
+  text-align: center;
 }
 
 
