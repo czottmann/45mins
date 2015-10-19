@@ -1,5 +1,5 @@
 html {
-  color: #3d3d3d;
+  color: #444;
   font-family: "ff-tisa-web-pro", serif;
   font-size: 20px;
   line-height: 1.6;
@@ -21,7 +21,6 @@ footer {
 a {
   border-bottom: 1px solid rgba(255, 62, 49, 0.5);
   color: #d10a0a;
-  display: inline-block;
   padding: 0 0 -0.25em 0;
   text-decoration: none;
 }
@@ -87,6 +86,10 @@ h3 {
 
 .Upcoming {}
 
+.Upcoming-column {
+  width: 250px;
+}
+
 .Upcoming-box {
   border-radius: 2em;
   border: 0.6em solid #d10a0a;
@@ -119,12 +122,17 @@ h3 {
   font-size: 0.75em;
 }
 
+.Upcoming-newsletter {
+  font-size: 0.75em;
+}
+
 
 /* -------------------------------------------------------------------------- */
 
 
 .FAQ {
   border-top: 1px solid #eee;
+  margin-bottom: 20em;
 }
 
 .FAQ-head {
