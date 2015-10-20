@@ -6,22 +6,31 @@ html {
   line-height: 1.6;
 }
 
+body {
+  background: url(unsplash-bonus-bg.jpg) bottom right no-repeat;
+  background-size: contain;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 19px;
+  }
+
+  body {
+    background-size: initial;
   }
 }
 
 section,
 footer {
-  margin: 0 20px 2em 20px;
+  padding: 0 20px 2em 20px;
   position: relative;
 }
 
 @media (min-width: 768px) {
   section,
   footer {
-    margin: 0 50px 2em 50px;
+    padding: 0 50px 2em 50px;
   }
 }
 
@@ -78,6 +87,7 @@ h3 {
 
 .Intro {
   margin-top: 2em;
+  overflow: hidden;
 }
 
 .Intro-head {
@@ -86,9 +96,23 @@ h3 {
 }
 
 .Intro-image {
-  vertical-align: top;
-  width: 406px;
-  height: 811px;
+  height: auto;
+  left: 0;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .Intro-image-container {
+    height: 811px;
+  }
+
+  .Intro-image {
+    height: 811px;
+    left: initial;
+    position: absolute;
+    vertical-align: top;
+    width: 406px;
+  }
 }
 
 
@@ -98,7 +122,7 @@ h3 {
 .Upcoming {}
 
 .Upcoming-column {
-  width: 250px;
+  width: 12.5em;
 }
 
 .Upcoming-box {
