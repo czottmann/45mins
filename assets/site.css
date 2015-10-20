@@ -98,7 +98,7 @@ h3 {
 .Intro-image {
   height: auto;
   left: 0;
-  max-width: 100%;
+  max-width: 379px;
 }
 
 @media (min-width: 768px) {
