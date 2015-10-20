@@ -35,11 +35,11 @@ footer {
 }
 
 a {
-  color: #d10a0a;
+  color: rgba(210, 86, 79, 1);
 }
 
 h1, h2, h3, h4, h5 {
-  color: #d10a0a;
+  color: rgba(210, 86, 79, 1);
   font-family: "proxima-nova", sans-serif;
   font-weight: normal;
   line-height: 1.4;
@@ -103,11 +103,11 @@ h3 {
 
 @media (min-width: 768px) {
   .Intro-image {
-    height: 811px;
+    height: 790px;
     left: initial;
     position: absolute;
     vertical-align: top;
-    width: 406px;
+    width: 379px;
   }
 }
 
@@ -123,7 +123,7 @@ h3 {
 
 .Upcoming-box {
   border-radius: 2em;
-  border: 0.6em solid #d10a0a;
+  border: 0.6em solid rgba(210, 86, 79, 1);
   font-family: "proxima-nova", sans-serif;
   line-height: 1;
   text-align: center;
@@ -131,7 +131,7 @@ h3 {
 }
 
 .Upcoming-header {
-  background-color: #d10a0a;
+  background-color: rgba(210, 86, 79, 1);
   color: #fff;
   font-weight: bold;
   margin: 0 0 0.5em 0;
