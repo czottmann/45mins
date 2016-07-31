@@ -1,9 +1,9 @@
 html {
   color: #444;
   display: block;
-  font-family: "ff-tisa-web-pro", serif;
-  font-size: 17px;
-  line-height: 1.6;
+  font-family: -apple-system , '.SFNSText-Regular' , 'Helvetica Neue' , 'Roboto' , 'Segoe UI' , sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 @media (min-width: 768px) {
   html {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   body {
@@ -40,13 +40,13 @@ a {
 
 h1, h2, h3, h4, h5 {
   color: rgba(210, 86, 79, 1);
-  font-family: "proxima-nova", sans-serif;
+  font-family: -apple-system , '.SFNSText-Regular' , 'Helvetica Neue' , 'Roboto' , 'Segoe UI' , sans-serif;
   font-weight: normal;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 
@@ -54,13 +54,13 @@ h3 {
 
 
 .row {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.5rem;
 }
 
 @media (min-width: 768px) {
   .row {
     display: table;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     table-layout: fixed;
     width: 100%;
   }
@@ -76,7 +76,7 @@ h3 {
 
   .col-75 {
     display: table-cell;
-    padding-left: 1em;
+    padding-left: 1rem;
     width: 75%;
   }
 }
@@ -86,12 +86,12 @@ h3 {
 
 
 .Intro {
-  margin-top: 2em;
+  margin-top: 2rem;
   overflow: hidden;
 }
 
 .Intro-head {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   line-height: 1.4;
 }
 
@@ -118,16 +118,16 @@ h3 {
 .Upcoming {}
 
 .Upcoming-column {
-  width: 12.5em;
+  width: 12.5rem;
 }
 
 .Upcoming-box {
-  border-radius: 2em;
+  border-radius: 2rem;
   border: 0.6em solid rgba(210, 86, 79, 1);
   font-family: "proxima-nova", sans-serif;
   line-height: 1;
   text-align: center;
-  width: 10em;
+  width: 10rem;
 }
 
 .Upcoming-header {
@@ -140,7 +140,7 @@ h3 {
 }
 
 .Upcoming-date {
-  font-size: 2.2em;
+  font-size: 2.2rem;
   margin: 0 0 0.1em 0;
 }
 
@@ -150,11 +150,11 @@ h3 {
 }
 
 .Upcoming-venue-wee {
-  font-size: 0.75em;
+  font-size: 0.75rem;
 }
 
 .Upcoming-newsletter {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 768px) {
@@ -164,7 +164,7 @@ h3 {
 
   .Upcoming-column {
     margin: 0 auto;
-    width: 12em;
+    width: 12rem;
   }
 }
 
@@ -174,12 +174,12 @@ h3 {
 
 .FAQ {
   border-top: 1px solid #eee;
-  margin-bottom: 40em;
-  padding-top: 1em;
+  margin-bottom: 40rem;
+  padding-top: 1rem;
 }
 
 .FAQ-head {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -222,7 +222,7 @@ h3 {
 }
 
 .PageFooter-imprint {
-  font-size: 0.6em;
+  font-size: 0.6rem;
 }
 
 
