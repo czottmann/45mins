@@ -124,7 +124,7 @@ h3 {
 .Upcoming-box {
   border-radius: 2rem;
   border: 0.6em solid rgba(210, 86, 79, 1);
-  font-family: -apple-system , '.SFNSText-Regular' , 'Helvetica Neue' , 'Roboto' , 'Segoe UI' , sans-serif
+  font-family: -apple-system , '.SFNSText-Regular' , 'Helvetica Neue' , 'Roboto' , 'Segoe UI' , sans-serif;
   line-height: 1;
   text-align: center;
   width: 10rem;
